@@ -1,579 +1,731 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Portfolio</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Name - Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="gradient-text">Shayan</span>
-                    </h1>
-                    <p class="hero-subtitle">a final year B.Tech CSE student passionate about Data Science, Machine Learning, and Generative AI. </p>
-                    <p class="hero-description">
-                        Exploring Machine Learning and Generative AI to build smarter solutions.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="https://docs.google.com/document/d/1CjyCiR_PKjQcRgP-6DucgWD19iLBTaYb/edit?usp=sharing&ouid=100644137938487457076&rtpof=true&sd=true" class="btn btn-secondary" target="_blank">
-                            <i class="fas fa-download"></i>
-                            Download Resume
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="gradient-text">Shayan</span>
+                        </h1>
+                        <p class="hero-subtitle">a final year B.Tech CSE student
+                            passionate about Data Science, Machine Learning, and
+                            Generative AI. </p>
+                        <p class="hero-description">
+                            Exploring Machine Learning and Generative AI to
+                            build smarter solutions.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View My
+                                Work</a>
+                            <a
+                                href="https://docs.google.com/document/d/1CjyCiR_PKjQcRgP-6DucgWD19iLBTaYb/edit?usp=sharing&ouid=100644137938487457076&rtpof=true&sd=true"
+                                class="btn btn-secondary" target="_blank">
+                                <i class="fas fa-download"></i>
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-avatar">
+                            <img
+                                src="Images/WhatsApp Image 2025-08-16 at 23.31.05_c3357267.jpg"
+                                alt="Profile Picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm Shayan, a final year B.Tech Computer Science
+                            student passionate about Data Science, Machine
+                            Learning, and Generative AI. I love transforming
+                            data into actionable insights and building
+                            intelligent solutions using Python, TensorFlow, and
+                            PyTorch.
+                        </p>
+                        <p>
+                            Currently diving deep into the world of Gen AI while
+                            sharpening my problem-solving skills through
+                            competitive programming on platforms like LeetCode
+                            and Codeforces. Always eager to learn new
+                            technologies, contribute to open source projects,
+                            and collaborate on innovative AI/ML solutions that
+                            make a real impact.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i>
+                    Experience
+                </h2>
+
+                <div class="timeline">
+                    <!-- Current Internship -->
+                    <div class="timeline-item current">
+                        <div class="timeline-marker">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Machine Learning
+                                    Intern</h3>
+                                <span class="current-badge">Current</span>
+                            </div>
+                            <div class="company-info">
+                                <h4 class="company-name">TechnoCollabs
+                                    Software</h4>
+                                <span class="duration">Present</span>
+                            </div>
+                            <ul class="responsibilities">
+                                <li>Working as Machine Learning Intern, applying
+                                    advanced ML techniques to real-world
+                                    business challenges</li>
+                                <li>Developing and implementing machine learning
+                                    solutions using Python and industry-standard
+                                    frameworks</li>
+                                <li>Collaborating with cross-functional teams to
+                                    deliver data-driven insights and predictive
+                                    models</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Data Science</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Previous Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="job-header">
+                                <h3 class="job-title">Project Intern</h3>
+                            </div>
+                            <div class="company-info">
+                                <h4 class="company-name">Physics Wallah</h4>
+                                <span class="duration">Previous</span>
+                            </div>
+                            <ul class="responsibilities">
+                                <li>Built a <strong>production-ready Forest
+                                        Cover Type Prediction project</strong>
+                                    using machine learning algorithms</li>
+                                <li>Developed end-to-end ML pipeline including
+                                    data preprocessing, model training,
+                                    validation, and deployment</li>
+                                <li>Implemented <strong>model registry and
+                                        verification scripts</strong> for robust
+                                    model management</li>
+                                <li>Created comprehensive model artifact
+                                    management system ensuring scalability and
+                                    maintainability</li>
+                                <li>Gained hands-on experience in translating
+                                    business requirements into technical ML
+                                    solutions</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ML Pipeline</span>
+                                <span class="tag">Model Deployment</span>
+                                <span class="tag">Production ML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Technologies I work with</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/python.webp" alt>
+                        </div>
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/numpy.webp" alt>
+                        </div>
+                        <h3>Numpy</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/pandas.webp" alt>
+                        </div>
+                        <h3>Pandas</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/matplotlib.webp" alt>
+                        </div>
+                        <h3>Matplotlib</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/seaborn.jpg" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>Seaborn</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/sklearn.jpg" height="40px"
+                                width="40px" alt>
+                        </div>
+                        <h3>Scikit-Learn</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/TensorFlow_logo.jpg" height="50px"
+                                width="50px" alt>
+                        </div>
+                        <h3>Tensorflow</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/SQL.webp" alt>
+                        </div>
+                        <h3>SQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/flask.png" height="40px"
+                                width="40px" alt>
+                        </div>
+                        <h3>Flask</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/Amazon_Web_Services_Logo.svg.png"
+                                height="40px" width="40px" alt>
+                        </div>
+                        <h3>AWS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/llms.jpg" height="40px"
+                                width="40px">
+                        </div>
+                        <h3>LangChain</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/mlops.jpg" height="40px"
+                                width="40px" alt>
+                        </div>
+                        <h3>MLOPS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/NLTK.jpg" alt>
+                        </div>
+                        <h3>NLTK</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/bi.jpg" width="40px" height="40px"
+                                alt>
+                        </div>
+                        <h3>PowerBI</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/Java-Logo.png" height="40px"
+                                width="40px" alt>
+                        </div>
+                        <h3>Java</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/images.png" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>Data Structures and Algorithms</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/hug.jpg" width="40px" height="40px"
+                                alt>
+                        </div>
+                        <h3>Hugging Face</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/images (1).png" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>MongoDB</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/git.jpg" width="40px" height="40px"
+                                alt>
+                        </div>
+                        <h3>Git</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/github.jpg" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>GitHub</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/html.jpg" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/js.jpg" width="40px" height="40px"
+                                alt>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <img src="Images/style.jpg" width="40px"
+                                height="40px" alt>
+                        </div>
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Images/Screenshot 2025-08-08 055528.png"
+                                alt="Task Manager Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/shayan78690/AGRI-TECH---Smart-Agricultural-Recommendation-System.git"
+                                        class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a
+                                        href="https://agritech-farms-dors.onrender.com"
+                                        class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AGRI-TECH - Smart Agricultural Recommendation
+                                System</h3>
+                            <p>AGRI-TECH is an intelligent agricultural
+                                recommendation system that leverages machine
+                                learning to provide farmers with data-driven
+                                insights for optimal crop selection and
+                                fertilizer recommendations. Built with Flask and
+                                scikit-learn, this system analyzes soil
+                                conditions, weather parameters, and
+                                environmental factors to suggest the most
+                                suitable crops and fertilizers for maximum
+                                yield.</p>
+                            <div class="project-tags">
+                                <span class="tag">Flask</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Werkzeug</span>
+                                <span class="tag">scikit-learn</span>
+                                <span class="tag">numpy</span>
+                                <span class="tag">pandas</span>
+                                <span class="tag">joblib</span>
+                                <span class="tag">gunicorn</span>
+                                <span class="tag">matplotlib</span>
+                                <span class="tag">seaborn</span>
+                                <span class="tag">itsdangerous</span>
+                                <span class="tag">Jinja2</span>
+                                <span class="tag">MarkupSafe</span>
+                                <span class="tag">click</span>
+                                <span class="tag">pytest</span>
+                                <span class="tag">pytest-flask</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Images/Screenshot 2025-08-08 055333.png"
+                                alt="Weather App Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/shayan78690/DocuQuery---Secure-RAG-Document-Q-A.git"
+                                        class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a
+                                        href="https://docuquery-secure-rag-document-q-a.onrender.com"
+                                        class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>DocuQuery: Local Document Q&A with RAG</h3>
+                            <p>DocuQuery is a full-stack web application that
+                                allows you to ask questions about your own
+                                documents (.pdf, .docx, .txt) and get answers
+                                from a locally-run AI model. It uses a
+                                Retrieval-Augmented Generation (RAG) pipeline to
+                                ensure answers are based only on the content of
+                                your uploaded file, guaranteeing data
+                                privacy.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">Werkzeug</span>
+                                <span class="tag">scikit-learn</span>
+                                <span class="tag">numpy</span>
+                                <span class="tag">pandas</span>
+                                <span class="tag">joblib</span>
+                                <span class="tag">gunicorn</span>
+                                <span class="tag">matplotlib</span>
+                                <span class="tag">seaborn</span>
+                                <span class="tag">itsdangerous</span>
+                                <span class="tag">Jinja2</span>
+                                <span class="tag">MarkupSafe</span>
+                                <span class="tag">click</span>
+                                <span class="tag">pytest</span>
+                                <span class="tag">pytest-flask</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Images/GreenCanopy.jpg"
+                                alt="E-Commerce Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/shayan78690/GreenCanopy-AI-.git"
+                                        class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a
+                                        href="https://greencanopy-ai.onrender.com/"
+                                        class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>GreenCanopy AI</h3>
+                            <p>ML app that predicts forest cover types from
+                                environmental data using Random Forest &
+                                XGBoost. Built with FastAPI backend, deployed
+                                via Docker on Render.com, and uses MongoDB Atlas
+                                & AWS S3 for storage. Helps optimize forest
+                                management with fast, accurate predictions.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">ML</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">AWS S3</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">dill</span>
+                                <span class="tag">dnspython</span>
+                                <span class="tag">evidently</span>
+                                <span class="tag">fastapi</span>
+                                <span class="tag">from-root</span>
+                                <span class="tag">httptools</span>
+                                <span class="tag">imblearn</span>
+                                <span class="tag">python-dotenv</span>
+                                <span class="tag">uvicorn</span>
+                                <span class="tag">xgboost</span>
+                                <span class="tag">pymongo</span>
+                                <span class="tag">boto3</span>
+                                <span class="tag">botocore-stubs</span>
+                                <span class="tag">mypy-boto3-s3</span>
+                                <span class="tag">types-s3transfer</span>
+                                <span class="tag">jinja2</span>
+                                <span class="tag">neuro-mf</span>
+                                <span class="tag">pip-chill</span>
+                                <span class="tag">watchfiles</span>
+                                <span class="tag">websockets</span>
+                                <span class="tag">wincertstore</span>
+                                <span class="tag">python-multipart</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Images/portfolio.jpg"
+                                alt="Portfolio Project">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/yourusername/project4"
+                                        class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://project4-demo.com"
+                                        class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Personal Portfolio</h3>
+                            <p>A modern, animated portfolio website showcasing
+                                creative design with smooth scrolling, parallax
+                                effects, and optimized performance.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's work together</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>your.email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Your City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email"
+                                    placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message"
+                                    placeholder="Your Message" rows="5"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <p>&copy; 2025 Your Name. All rights reserved.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername"
+                            target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername"
+                            target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername"
+                            target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername"
+                            target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <div class="hero-avatar">
-                        <img src="Images/WhatsApp Image 2025-08-16 at 23.31.05_c3357267.jpg" alt="Profile Picture">
-                    </div>
-                </div>
             </div>
-        </div>
-        <div class="hero-scroll">
-            <div class="scroll-indicator">
-                <span></span>
-            </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Get to know me better</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm Shayan, a final year B.Tech Computer Science student passionate about Data Science, Machine Learning, and Generative AI. I love transforming data into actionable insights and building intelligent solutions using Python, TensorFlow, and PyTorch. 
-                    </p>
-                    <p>
-                        Currently diving deep into the world of Gen AI while sharpening my problem-solving skills through competitive programming on platforms like LeetCode and Codeforces. Always eager to learn new technologies, contribute to open source projects, and collaborate on innovative AI/ML solutions that make a real impact.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="experience-section">
-        <div class="container">
-            <h2 class="section-title">
-                <i class="fas fa-briefcase"></i>
-                Experience
-            </h2>
-            
-            <div class="timeline">
-                <!-- Current Internship -->
-                <div class="timeline-item current">
-                    <div class="timeline-marker">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="job-header">
-                            <h3 class="job-title">Machine Learning Intern</h3>
-                            <span class="current-badge">Current</span>
-                        </div>
-                        <div class="company-info">
-                            <h4 class="company-name">TechnoCollabs Software</h4>
-                            <span class="duration">Present</span>
-                        </div>
-                        <ul class="responsibilities">
-                            <li>Working as Machine Learning Intern, applying advanced ML techniques to real-world business challenges</li>
-                            <li>Developing and implementing machine learning solutions using Python and industry-standard frameworks</li>
-                            <li>Collaborating with cross-functional teams to deliver data-driven insights and predictive models</li>
-                        </ul>
-                        <div class="tech-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
-                            <span class="tag">Data Science</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Previous Internship -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <i class="fas fa-circle"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="job-header">
-                            <h3 class="job-title">Project Intern</h3>
-                        </div>
-                        <div class="company-info">
-                            <h4 class="company-name">Physics Wallah</h4>
-                            <span class="duration">Previous</span>
-                        </div>
-                        <ul class="responsibilities">
-                            <li>Built a <strong>production-ready Forest Cover Type Prediction project</strong> using machine learning algorithms</li>
-                            <li>Developed end-to-end ML pipeline including data preprocessing, model training, validation, and deployment</li>
-                            <li>Implemented <strong>model registry and verification scripts</strong> for robust model management</li>
-                            <li>Created comprehensive model artifact management system ensuring scalability and maintainability</li>
-                            <li>Gained hands-on experience in translating business requirements into technical ML solutions</li>
-                        </ul>
-                        <div class="tech-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">ML Pipeline</span>
-                            <span class="tag">Model Deployment</span>
-                            <span class="tag">Production ML</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">Technologies I work with</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/python.webp" alt="">
-                    </div>
-                    <h3>Python</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/numpy.webp" alt="">
-                    </div>
-                    <h3>Numpy</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/pandas.webp" alt="">
-                    </div>
-                    <h3>Pandas</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/matplotlib.webp" alt="">
-                    </div>
-                    <h3>Matplotlib</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/seaborn.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>Seaborn</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/sklearn.jpg" height="40px" width="40px" alt="">
-                    </div>
-                    <h3>Scikit-Learn</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/TensorFlow_logo.jpg"  height="50px" width="50px" alt="">
-                    </div>
-                    <h3>Tensorflow</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/SQL.webp" alt="">
-                    </div>
-                    <h3>SQL</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/flask.png" height="40px" width="40px" alt="">
-                    </div>
-                    <h3>Flask</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/Amazon_Web_Services_Logo.svg.png" height="40px" width="40px" alt="">
-                    </div>
-                    <h3>AWS</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/llms.jpg"  height="40px" width="40px">
-                    </div>
-                    <h3>LangChain</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/mlops.jpg" height="40px" width="40px" alt="">
-                    </div>
-                    <h3>MLOPS</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/NLTK.jpg" alt="">
-                    </div>
-                    <h3>NLTK</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/bi.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>PowerBI</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/Java-Logo.png" height="40px" width="40px" alt="">
-                    </div>
-                    <h3>Java</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/images.png"  width="40px" height="40px" alt="">
-                    </div>
-                    <h3>Data Structures and Algorithms</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/hug.jpg"  width="40px" height="40px" alt="">
-                    </div>
-                    <h3>Hugging Face</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/images (1).png" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>MongoDB</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/git.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>Git</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/github.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>GitHub</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/html.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>HTML</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/js.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>JavaScript</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <div class="skill-icon">
-                        <img src="Images/style.jpg" width="40px" height="40px" alt="">
-                    </div>
-                    <h3>CSS</h3>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="95%"></div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="Images/GreenCanopy.jpg" alt="E-Commerce Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/shayan78690/GreenCanopy-AI-.git" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://greencanopy-ai.onrender.com/" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>GreenCanopy AI</h3>
-                        <p>ML app that predicts forest cover types from environmental data using Random Forest & XGBoost. Built with FastAPI backend, deployed via Docker on Render.com, and uses MongoDB Atlas & AWS S3 for storage. Helps optimize forest management with fast, accurate predictions.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">ML</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">MongoDB</span>
-                            <span class="tag">AWS S3</span>
-                            <span class="tag">Docker</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="Images/Screenshot 2025-08-08 055528.png" alt="Task Manager Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/shayan78690/AGRI-TECH---Smart-Agricultural-Recommendation-System.git" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://agritech-farms-dors.onrender.com" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>AGRI-TECH - Smart Agricultural Recommendation System</h3>
-                        <p>AGRI-TECH is an intelligent agricultural recommendation system that leverages machine learning to provide farmers with data-driven insights for optimal crop selection and fertilizer recommendations. Built with Flask and scikit-learn, this system analyzes soil conditions, weather parameters, and environmental factors to suggest the most suitable crops and fertilizers for maximum yield.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">ML</span>
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">Scikit-Learn</span>
-                            <span class="tag">Flask</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="Images/Screenshot 2025-08-08 055333.png" alt="Weather App Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/shayan78690/DocuQuery---Secure-RAG-Document-Q-A.git" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://docuquery-secure-rag-document-q-a.onrender.com" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>DocuQuery: Local Document Q&A with RAG</h3>
-                        <p>DocuQuery is a full-stack web application that allows you to ask questions about your own documents (.pdf, .docx, .txt) and get answers from a locally-run AI model. It uses a Retrieval-Augmented Generation (RAG) pipeline to ensure answers are based only on the content of your uploaded file, guaranteeing data privacy.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Flask</span>
-                            <span class="tag">LangChain</span>
-                            <span class="tag">Gunicorn</span>
-                            <span class="tag">TinyLlama</span>
-                            <span class="tag">FAISS(Vector DB)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="Images/portfolio.jpg" alt="Portfolio Project">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/yourusername/project4" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://project4-demo.com" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Personal Portfolio</h3>
-                        <p>A modern, animated portfolio website showcasing creative design with smooth scrolling, parallax effects, and optimized performance.</p>
-                        <div class="project-tags">
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's work together</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Email</h3>
-                            <p>your.email@example.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Location</h3>
-                            <p>Your City, Country</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2025 Your Name. All rights reserved.</p>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com/yourusername" target="_blank" class="social-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
